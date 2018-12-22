@@ -6,3 +6,6 @@ Urađen je admin panel preko koga korisnik ima potpunu kontrolu nad sajtom: mije
 ubacivanje/uređivanje/brisanje soba, uređivanje kalendara i cijena.
 
 Naredni korak je ista aplikacija uz pomoć Nuxt-a, kako bi se riješio problem SEO-a
+
+
+www.apartmanibatricevic.com
