@@ -1,0 +1,192 @@
+.calendars{
+  margin-bottom: 6%;
+
+  @media screen and (min-width: $md){
+    margin-bottom: 3%;
+  }
+
+  @media screen and (min-width: $lg){
+    margin-bottom: 0%;
+  }
+
+  & .today{
+    background-color: $ljub05 !important;
+    color: #fff;
+  }
+
+  & .selected {
+    background-color: $pla !important;
+    color: #fff;
+  }
+}
+
+.pickerCol{
+
+
+  & header{
+    // display: block;
+    width: 100% !important;
+    margin: 2%;
+      @media screen and (min-width: $lg){
+
+    // ==========
+    display: block !important;
+    position: inherit;
+    // margin-bottom: 50%;
+    // ============
+  }
+  }
+
+
+
+
+}
+
+
+
+//DATE PICKERS
+
+.pickersRow {
+  margin-bottom: 6%;
+
+}
+
+.pickerHelper{
+  @media screen and (max-width: 1199){
+    display: none;
+  }
+}
+
+.pickTitle {
+  text-align: center;
+  margin-bottom: 8%;
+  text-decoration: underline;
+
+  @media screen and (min-width: $sm){
+    margin-bottom: 5%;
+  }
+}
+
+.calendarTitle{
+  margin-bottom: 3%;
+}
+
+.pickerCol {
+  margin-bottom: 7%;
+  // border: $blab;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.check {
+  display: flex;
+  justify-content: center;
+}
+
+.checkButton{
+  background-color: $pla;
+  border: 1px solid $pla;
+  padding: 1% 2%;
+  letter-spacing: 2px;
+  color: #fff;
+
+  &:hover{
+    background-color: $pla05;
+    border-color : $pla05;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+//SEARCH RESULTS
+
+.searchResults{
+
+  & h2, & h3{
+    color : $pla;
+    text-align: center;
+
+  }
+
+
+}
+
+.resultRooms{
+  margin-bottom: 6%;
+  // border: $redb;
+}
+
+
+
+.searchTitles{
+  margin-bottom: 4%;
+}
+
+.searchResult {
+  padding: 2%;
+  display: flex;
+  border: $grab;
+  margin-bottom: 2%;
+}
+
+.searchImg{
+  width: 50%;
+  @include flex_center_a_img();
+
+  @media screen and (min-width: $sm){
+    @include flex_center_a_img(80%);
+  }
+  @media screen and (min-width: $md){
+    width: 40%;
+    @include flex_center_a_img(70%);
+  }
+  @media screen and (min-width: $md){
+
+    @include flex_center_a_img(85%);
+  }
+}
+
+
+.searchInfo{
+  width: 50%;
+  padding: 2%;
+  text-align: center;
+  @media screen and (min-width: $md){
+
+  }
+}
+
+.searchRoomName{
+  @media screen and (min-width: $md){
+    letter-spacing: 2px;
+    font-size: 1.3em !important;
+  }
+}
+
+.searchGo {
+  background-color: $ljub05;
+  border-color: $ljub05;
+
+  &:hover{
+    background-color: #fff;
+    color: $pla;
+    border-color: $ljub05;
+  }
+}
+
+.searchAgain{
+  // border: $blab;
+  @include flexCentered;
+}

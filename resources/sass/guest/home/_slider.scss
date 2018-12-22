@@ -1,0 +1,84 @@
+.sliderColumn{
+ // border: $redb;
+ position: absolute;
+ left: 0;
+
+
+ z-index: -1;
+ width: 100vw !important;
+ // height: 50vh;
+ margin-bottom: 14%;
+
+  @media screen and (min-width: $sm){
+       margin-bottom: 5%;
+  }
+
+ @media screen and (min-width: $lg){
+ position: absolute;
+ top: 0;
+ left: 0;
+}
+
+
+
+}
+
+.sliderSpace{
+  @media screen and (max-width: 991px){
+    // display: none;
+    // border: $greb2;
+  }
+  width: 100vw;
+  // border: $greb2;
+  height: 23vh;
+  margin-bottom: 5%;
+
+
+  @media screen and (min-width: $lg){
+  margin-bottom: 5.5%;
+  height: 110vh !important;
+  margin-bottom: 2%;
+  }
+  @media screen and (min-width: $xl){
+    margin-bottom: 2%;
+  }
+}
+
+.flux-caption {
+
+  background-color:rgba(201, 103, 160, 0)  !important;
+  // color : $pla !important;
+  @include outlined();
+  position: absolute !important;
+  top: 60% !important;
+  font-size: 1.4em;
+  letter-spacing: 3px;
+  font-weight: 700;
+  font-family: $title;
+
+  @media screen and (min-width: $sm){
+    font-size: 2em;
+    top : 65% !important;
+  }
+  @media screen and (min-width: $md){
+    font-size: 2.2em;
+    top: 68%
+    }
+  @media screen and (min-width: $lg){
+    font-size: 2.3em;
+    top : 69% !important;
+    letter-spacing: 4px;
+  }
+  @media screen and (min-width: $xl){
+    font-size: 2.5em !important;
+    top : 73% !important;
+  }
+}
+
+.flux-pagination {
+  bottom: 30px !important;
+
+  & li{
+
+  }
+}

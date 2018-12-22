@@ -1,0 +1,19 @@
+.galleryPage{
+  margin-top: 10%;
+  @media screen and (min-width: $sm){
+  margin-top: 5%;  }
+  @media screen and (min-width: $md){
+  margin-top: 3%;  }
+  @media screen and (min-width: $lg){
+  margin-top: 0%;  }
+}
+
+.galleryPageTitle{
+  text-align: center;
+  margin-bottom: 5%;
+  color: $pla;
+  @media screen and (min-width: $lg){
+  margin-top: 20%;  }
+  @media screen and (min-width: $xl){
+  margin-top: 18%;  }
+}

@@ -1,0 +1,65 @@
+
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: "Nunito", sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66D9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+// non-default
+$tam : #000;
+$pla : #062F4F;
+$ljub : #813772;
+$crv : #B82601;
+
+$tam05 : rgba(#000000, 0.5);
+$pla05 : rgba(#062f4f, 0.5);
+$ljub05 : rgba(#813772, 0.5);
+$crv05 : rgba(#b82601, 0.5);
+
+$reservedDate : rgba(#b82601, 0.9);
+$freeDate : rgba(135, 179, 72, 0.91);
+
+
+//Borders
+$blab : 1px solid black;
+$redb : 1px solid red;
+$blub : 1px solid blue;
+$greb : 1px solid green;
+$yelb : 1px solid yellow;
+$aqub : 1px solid aqua;
+$orab : 1px solid orange;
+$grab : 1px solid rgb(186, 180, 172);
+$whib : 1px solid #fff;
+
+$blab2 : 2px solid black;
+$redb2 : 2px solid red;
+$blub2 : 2px solid blue;
+$greb2 : 2px solid green;
+$yelb2 : 2px solid yellow;
+$aqub2 : 2px solid aqua;
+$orab2 : 2px solid orange;
+$grab2 : 2px solid rgb(186, 180, 172);
+$whib2 : 2px solid #fff;
+
+//Breakpoints
+$sm : 576px;
+$md : 768px;
+$lg : 992px;
+$xl : 1140px;
+
+//Fonts
+$title : 'Cabin', sans-serif;
+$text : 'Old Standard TT', serif;

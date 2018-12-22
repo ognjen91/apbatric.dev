@@ -1,0 +1,13 @@
+.adminNavLink{
+  margin: 2% 2% 1% 2%;
+  & a{
+    color: black;
+    font-size: 2em;
+    font-weight: 800;
+    text-decoration: underline;
+
+    &:hover {
+      color : black;
+    }
+  }
+}

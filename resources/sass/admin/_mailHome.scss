@@ -1,0 +1,55 @@
+.mailsRow{
+  margin-top: 20%;
+  @media screen and (min-width:$md){
+    margin-top: 4%;
+  }
+}
+
+.mailActiveLink {
+  font-weight: 700;
+
+}
+
+.mailAside, .mailMain{
+  border: $blab;
+  padding: 2%;
+}
+
+
+.mailMenu {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2%;
+
+  & div {
+    border: $grab;
+    width: 50%;
+    text-align: center;
+    padding: 2%;
+    text-decoration: underline;
+    font-size: 120%;
+
+
+    & a {
+      color: black;
+    }
+  }
+}
+
+.listedMails {
+  & li {
+    list-style-type : none;
+    padding: 1%;
+    border: $grab;
+
+    & a {
+      color: black;
+      letter-spacing: 2px;
+      font-size: 120%;
+    }
+  }
+}
+
+.activeMail {
+  background-color: rgb(131, 190, 183);
+}

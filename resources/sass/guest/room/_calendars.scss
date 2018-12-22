@@ -1,0 +1,70 @@
+.roomCalendars{
+  margin-bottom: 5%;
+}
+
+.roomCalendarsTitle{
+  margin-bottom: 4%;
+  text-align: center;
+  color : $ljub;
+}
+
+.smallCalendar{
+  @media screen and (min-width : $sm){
+    display: none;
+  }
+
+  & .vdp-datepicker__calendar{
+    left: -12%;
+  }
+}
+.bigCalendar{
+  @media screen and (max-width : $sm){
+    display: none;
+  }
+}
+
+.roomCalendar {
+  margin-bottom: 5%;
+
+  & .day{
+    border: 1px solid #fff !important;
+  }
+
+  & .highlighted {
+    background-color: $reservedDate !important;
+    color: #fff !important;
+     pointer-events: none;
+  }
+
+  & .day:not(.blank):not(.disabled):not(.highlighted):not(.today):not(.selected){
+    background-color: $freeDate !important;
+    color : #fff !important;
+  }
+
+  & .selected{
+    background-color: $pla05;
+    color: #fff !important;
+  }
+
+
+  & .selected{
+    background-color: $pla !important;
+    color : #fff !important;
+  }
+}
+
+.checkAvailability{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  // border: $greb2;
+  align-items: center;
+}
+
+.checkButtonRoom{
+  margin: 5% 0;
+
+  @media screen and (min-width: $md){
+    width: 40%;
+  }
+}

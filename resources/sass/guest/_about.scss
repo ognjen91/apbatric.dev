@@ -1,0 +1,204 @@
+.aboutUs{
+  margin-top: 18%;
+
+  @media screen and (min-width: $sm){
+    margin-top: 14%;
+  }
+
+  @media screen and (min-width: $md){
+    margin-top: 10%;
+  }
+  @media screen and (min-width: $lg){
+    margin-top: 0%;
+  }
+  @media screen and (min-width: $xl){
+    // margin-top: 4%;
+  }
+}
+
+.helperAbout{
+  @media screen and (max-width: $xl){
+    display: none;
+  }
+}
+
+.aboutUsTitle{
+  @media screen and (min-width: $lg){
+    text-align: center;
+    // margin-top: 12%;
+  }
+}
+
+.introAboutUs{
+  padding: 0 4.5%;
+  @media screen and (min-width: $lg){
+    text-align: center;
+    margin-top: 15%;
+  }
+
+  @media screen and (max-width: $xl){
+    padding: 0 1.5%;
+  }
+
+}
+
+.aboutus-section {
+    // padding: 90px 0;
+}
+.aboutus-title {
+    color: $ljub;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin: 0 0 39px;
+    padding: 0 0 11px;
+    position: relative;
+    text-transform: uppercase;
+
+}
+.aboutus-title::after {
+    // background: $crv none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 54px;
+}
+.aboutus-text {
+    color: #606060;
+    font-size: 110% !important;
+    line-height: 22px;
+    padding: 3% 5%;
+
+}
+
+.aboutUsImg{
+  margin-bottom: 10%;
+
+  @media screen and (min-width: $lg){
+    margin-top: 15%;
+margin-bottom: 8%;
+  }
+
+  @media screen and (min-width: $xl){
+margin-bottom: 4.5%;
+  }
+}
+
+a:hover, a:active {
+    // color: $crv;
+    text-decoration: none;
+    outline: 0;
+}
+.aboutus-more {
+    // border: 1px solid $crv;
+    border-radius: 25px;
+    color: $ljub;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0;
+    padding: 7px 20px;
+    text-transform: uppercase;
+}
+
+.featureSection{
+
+}
+
+.feature-box{
+  @media screen and (min-width: $sm){
+    &:nth-of-type(2n-1){
+      border-right: $grab;
+  }
+}
+@media screen and (min-width: $lg){
+  text-align: center;
+}
+  @media screen and (min-width: $xl){
+      border-right: $grab;
+      &:last-of-type{
+    border-right: none
+  }
+ }
+}
+
+.feature .feature-box .iconset {
+    background: #fff none repeat scroll 0 0;
+    padding: 4% 1%;
+    float: left;
+    position: relative;
+    width: 18%;
+}
+.feature .feature-box .iconset::after {
+    // background: #fdb801 none repeat scroll 0 0;
+    content: "";
+    height: 150%;
+    left: 43%;
+    position: absolute;
+    top: 100%;
+    width: 1px;
+}
+
+.feature .feature-box .feature-content h4 {
+    color: #0f0f0f;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin: 0 0 5px;
+}
+
+
+.feature .feature-box .feature-content {
+    float: left;
+    padding-left: 28px;
+    width: 78%;
+}
+.feature .feature-box .feature-content h4 {
+    color: #0f0f0f;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin: 0 0 5px;
+}
+.feature .feature-box .feature-content p {
+    color: #606060;
+    font-size: 13px;
+    line-height: 22px;
+}
+.icon {
+    color : $crv;
+    padding:0px;
+    font-size:40px;
+    // border: 1px solid $crv;
+    border-radius: 100px;
+    // color: #fdb801;
+    font-size: 28px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    width: 70px;
+}
+
+.paragraphTitle{
+  color: $ljub !important;
+  @media screen and (min-width: $lg){
+    text-align: center;
+  }
+}
+
+.aboutus-banner{
+  @include flex_center_img(80%);
+
+  @media screen and (min-width: $md){
+  @include flex_center_img(75%);
+  }
+  @media screen and (min-width: $lg){
+  @include flex_center_img(50%);
+  }
+
+  @media screen and (min-width: $xl){
+  @include flex_center_img(47%);
+  }
+}

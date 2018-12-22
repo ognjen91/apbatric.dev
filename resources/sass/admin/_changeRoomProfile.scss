@@ -1,0 +1,26 @@
+.ch_current_profile {
+  @include flex_center_img(85%);
+  // border: $blab;
+}
+
+.ch_listed_imgs{
+  width: 60%;
+  @include flex_center_img(40%);
+}
+
+.newProfileRadio {
+  width: 30%;
+}
+
+.ch_choose_profile {
+
+  & tr{
+    width: 50%;
+    border-bottom: $grab;
+    padding-bottom: 5%;
+  }
+}
+
+.ch_submit_img{
+  margin-top: 5%;
+}

@@ -1,0 +1,40 @@
+.videoCol{
+  // border: $blub;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 0;
+  @media screen and (min-width: 768px){
+    padding: 8% 0;
+  }
+
+& iframe {
+  width: 90vw;
+  height: 50.8vw;
+
+  @media screen and (min-width: 768px){
+    width: 82vw;
+    height: 46vw;
+  }
+  // max-width: 500px;
+  // height: 282px;
+
+  // @media screen and (min-width: $sm){
+  //   width: 578px;
+  //   height: 326px;
+  // }
+  // @media screen and (min-width: $md){
+  //   width: 768px;
+  //   height: 433px;
+  // }
+  // @media screen and (min-width: $lg){
+  //   width: 992px;
+  //   height: 560px;
+  // }
+  // @media screen and (min-width: $xl){
+  //   width: 1200px;
+  //   height: 677px;
+  // }
+}
+
+}

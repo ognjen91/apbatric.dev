@@ -1,0 +1,27 @@
+.queryResult {
+  margin: 4%;
+}
+
+.formHeader {
+background-color: $ljub05 !important;
+}
+
+.roomContact{
+  & i {
+    color: $ljub05 !important;
+  }
+
+  & .border-primary{
+    border: $grab !important;
+  }
+
+  & .btn{
+background-color: $ljub05 !important;
+color: #fff !important;
+border: $grab;
+  }
+
+  & .fa-envelope{
+    margin-right: 2%;
+  }
+}

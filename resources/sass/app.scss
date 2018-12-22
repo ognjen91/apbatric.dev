@@ -1,0 +1,52 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+@import 'defaults';
+@import 'mixins';
+@import 'defaultClasses';
+@import 'textClasses';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//zajednicko
+@import 'header';
+
+//admin
+@import 'admin/adminDefaults';
+@import 'admin/login';
+@import 'admin/dashboard';
+@import 'admin/new_room';
+@import 'admin/edit_room';
+@import 'admin/changeRoomProfile';
+@import 'admin/editCalendars';
+@import 'admin/editPrices';
+@import 'admin/events';
+@import 'admin/newEvent';
+@import 'admin/editEvent';
+@import 'admin/mailHome';
+@import 'admin/mailNew';
+@import 'admin/mailGuestsList';
+@import 'admin/mailView';
+@import 'admin/slider';
+@import 'admin/about';
+@import 'admin/contact';
+
+
+//gost
+@import 'guest/home';
+@import 'guest/rooms';
+@import 'guest/room';
+@import 'guest/events';
+@import 'guest/event';
+@import 'guest/gallery';
+@import 'guest/about';
+@import 'guest/contact';
+
+
+
+@import "404";

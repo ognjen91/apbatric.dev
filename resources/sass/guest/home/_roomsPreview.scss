@@ -1,0 +1,92 @@
+.roomsPreview {
+  // border: $blab;
+}
+
+.randomRooms{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.previewColumn{
+  padding: 3% 0;
+  border: 1px solid rgba(237, 218, 219, 0.88);
+  // width: 50%;
+  margin-bottom: 5%;
+
+  @media screen and (min-width: $md){
+    padding: 1% 0;
+    margin-bottom: 1%;
+  }
+
+  @media screen and (min-width: $lg){
+  
+    width: 35% !important;
+    }
+
+  @media screen and (min-width: $xl){
+    padding: 1% 0;
+    margin-bottom: 1%;
+    // width: 40%;
+    }
+
+
+
+  &:nth-of-type(2){
+    position: relative;
+    top : 25%;
+  }
+}
+
+.previewRoom{
+  display: flex;
+  flex-direction: column;
+
+  // border: $greb;
+
+  &>div{
+    // border: $redb;
+  }
+}
+
+.roomTitle{
+  font-size: 125% !important;
+  @media screen and (min-width: $xl){
+      font-size: 160% !important;
+      margin: 2%;
+  }
+}
+
+.previewImg {
+  // width: 50%;
+  @include flex_center_a_img(75%);
+
+  @media screen and (min-width: $lg){
+      @include flex_center_a_img(55%);
+  }
+
+    @media screen and (min-width: $xl){
+        @include flex_center_a_img(50%);
+    }
+}
+
+.previewText {
+  text-align: center;
+}
+
+.previewStaPr {
+  text-decoration: underline;
+}
+
+.goToRoom{
+  width: 80%;
+  font-size: 80%;
+  @media screen and (min-width: $lg){
+      width: 70%;
+  }
+
+    @media screen and (min-width: $xl){
+        width: 60%;
+    }
+
+}

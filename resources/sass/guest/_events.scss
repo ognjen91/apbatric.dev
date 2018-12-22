@@ -1,0 +1,130 @@
+.discounts {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
+
+.discountsIntro{
+  margin-bottom: 12%;
+
+  @media screen and (min-width: $lg){
+    margin-bottom: 10%;
+  }
+  &>div{
+
+  }
+}
+
+
+
+.introContainer{
+  margin-top: 11%;
+}
+
+.mainDiscRow {
+  @media screen and (min-width: $md){
+    border-right: $grab;
+  }
+}
+
+.goToMainDiscount{
+  background-color: $ljub05 !important;
+  color: #fff !important;
+  border: 1px solid $ljub05;
+
+  &:hover{
+    background-color: rgba(#ffffff, 0.32) !important;
+    color: $ljub !important;
+  }
+}
+
+.goToOtherDiscounts{
+
+  &:hover{
+    text-decoration: none;
+  }
+}
+
+.mainDiscountCol{
+  // border: $greb2;
+  padding-left: 6%;
+}
+
+.mainDiscTitle{
+  color : $pla;
+  margin-bottom: 5%;
+}
+
+.mainDiscName{
+  color: $ljub;
+  margin-bottom: 5%;
+}
+
+
+.otherDiscountsCol{
+  // border: $greb2;
+  &>div{
+    padding-left: 6%;
+  }
+
+}
+
+.otherDiscName {
+  color: $crv;
+}
+
+.activeDiscount{
+  margin-bottom: 4%;
+}
+
+
+
+
+
+
+
+// =animacija=
+//
+.counterCirlceCol{
+  margin-bottom: 4%;
+  display: flex;
+  justify-content: center;
+
+  @media screen and (min-width: $lg){
+    justify-content: flex-start;
+  }
+}
+.circle-button {
+	box-shadow: 2px 4px 0 2px rgba(0,0,0,0.1);
+	border: .5em solid $ljub;
+	font-size: 1em;
+	line-height: 1.1em;
+	color: #ffffff;
+	background-color: $ljub;
+	margin: auto;
+	border-radius: 50%;
+	height: 5em;
+	width: 5em;
+  @media screen and (min-width: $lg){
+    height: 6em;
+  	width: 6em;
+  }
+	position: relative;
+}
+
+.circle-button-two {
+	color:#ffffff;
+  background-color: $ljub;
+	text-decoration: none;
+	border-color: $pla05;
+}
+.circle-button:visited {
+	color:#ffffff;
+    background-color: #e84d0e;
+	text-decoration: none;
+
+}
+.orange-circle-link-greater-than {
+    font-size: 1em;
+}

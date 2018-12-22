@@ -1,0 +1,135 @@
+.contactPage{
+  margin-top: 14%;
+  @media screen and (min-width: $sm){
+  margin-top: 7%;
+  }
+  @media screen and (min-width: $md){
+  margin-top: 4%;
+  }
+  @media screen and (min-width: $lg){
+  margin-top: 0%;
+  }
+  @media screen and (min-width: $xl){
+  // margin-top: -2%;
+  }
+}
+
+.contactInfo{
+
+}
+
+#contact{
+  background-color: $ljub05;
+  letter-spacing: 2px;
+
+  @media screen and (min-width: $lg){
+  margin-top: 15%;
+  }
+  }
+#contact a{
+  color: #fff;
+  text-decoration: none;
+}
+
+
+@media (max-width: 575.98px) {
+
+  #contact{padding-bottom: 730px;}
+  #contact .maps iframe{
+    width: 100%;
+    height: 450px;
+  }
+ }
+
+
+@media (min-width: 576px) {
+
+   #contact{padding-bottom: 800px;}
+
+   #contact .maps iframe{
+     width: 100%;
+     height: 450px;
+   }
+ }
+
+@media (min-width: 768px) {
+
+  #contact{padding-bottom: 350px;}
+
+  #contact .maps iframe{
+    width: 100%;
+    height: 850px;
+  }
+}
+
+@media (min-width: 992px) {
+  #contact{padding-bottom: 200px;}
+
+   #contact .maps iframe{
+     width: 100%;
+     height: 700px;
+   }
+}
+
+
+#author a{
+  color: #fff;
+  text-decoration: none;
+
+}
+
+.skypeContact{
+  // border: $blab;
+  padding: 1%;
+}
+
+// -----CONTACT ASIDE------
+//
+.contactAside{
+  background-color: rgba(#813772, 0.21);
+  @media screen and (min-width: $md){
+
+    padding-top: 5%;
+  }
+  @media screen and (min-width: $lg){
+    // padding: 0;
+  margin-top: 12%;
+  }
+
+}
+
+.asideTitle{
+  @media screen and (min-width: $md){
+    // margin: 7% 1%;
+
+  }
+}
+
+.friendsTitle{
+  margin: 4% 0%;
+  color: #pla;
+}
+
+.baner {
+  @include flex_center_a_img(50%);
+  margin-bottom: 5%;
+
+  @media screen and (min-width: $sm){
+    @include flex_center_a_img(47%);
+  }
+  @media screen and (min-width: $md){
+  @include flex_center_a_img(75%);
+  margin: 8% 0;
+  }
+  @media screen and (min-width: $lg){
+  margin: 6% 0;
+  }
+  @media screen and (min-width: $xl){
+  @include flex_center_a_img(60%);
+  margin: 4% 0;
+  }
+}
+
+.sendMsgToOwner {
+  margin-bottom: 4%;
+}

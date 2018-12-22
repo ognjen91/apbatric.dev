@@ -1,0 +1,36 @@
+
+//klasu random koristim za random 1,2,3
+.random{
+  padding: 17% 4%;
+
+  @media screen and (min-width: $sm){
+    padding: 14% 4%;
+  }
+}
+
+.first {
+// border: $blub;
+  padding: 5% 4% 17% 4%;
+
+  color: $pla;
+  @media screen and (min-width: $sm){
+    padding: 12% 4% 12% 4%;
+  }
+  @media screen and (min-width: $md){
+    padding: 14% 4% 11% 4%;
+  }
+  @media screen and (min-width: $lg){
+    padding: 9% 4% 10% 4%;
+  }
+  @media screen and (min-width: $xl){
+    padding: 9% 4% 9% 4%;
+  }
+
+  & h3 {
+
+  }
+
+  & h5{
+
+  }
+}

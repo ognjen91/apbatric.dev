@@ -1,0 +1,116 @@
+.outlined{
+
+  color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+
+}
+
+.title{
+  font-family: $title;
+}
+
+.titleBiggest{
+  font-size: 190%;
+  font-family: $title;
+
+  @media screen and (min-width: $sm){
+    font-size: 210%;
+  }
+
+  @media screen and (min-width: $sm){
+    font-size: 230%;
+  }
+
+  @media screen and (min-width: $lg){
+    font-size: 250%;
+  }
+}
+
+.titleBigger{
+  font-size: 150%;
+  letter-spacing: 2px;
+  font-family: $title;
+
+  @media screen and (min-width: $sm){
+    font-size: 160%;
+  }
+
+  @media screen and (min-width: $md){
+    font-size: 170%;
+  }
+
+  @media screen and (min-width: $lg){
+    font-size: 180%;
+  }
+}
+
+.titleBig {
+  font-size: 125%;
+  letter-spacing: 2px;
+  font-family: $title;
+
+  @media screen and (min-width: $sm){
+    font-size: 130%;
+  }
+
+
+  @media screen and (min-width: $md){
+    font-size: 135%;
+  }
+
+  @media screen and (min-width: $lg){
+    font-size: 140%;
+  }
+
+}
+
+.title{
+  font-family: $title;
+}
+
+.titleSmall {
+  font-size: 115%;
+  letter-spacing: 1px;
+  font-family: $title;
+
+  @media screen and (min-width: $sm){
+    font-size: 120%;
+  }
+
+  @media screen and (min-width: $md){
+    font-size: 125%;
+  }
+
+  @media screen and (min-width: $lg){
+    font-size: 125%;
+  }
+}
+
+.spaced{
+  letter-spacing: 1px;
+}
+
+.spaced2{
+  letter-spacing: 2px;
+}
+
+.text{
+  font-family : $text;
+}
+
+
+.textSpaced {
+  letter-spacing: 1px;
+  font-family: $text;
+}
+
+.textSpaced2{
+  letter-spacing: 2px;
+  font-family: $text;
+}
+
+.underlined {
+  text-decoration: underline;
+}

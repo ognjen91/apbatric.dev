@@ -1,0 +1,38 @@
+@mixin flexCentered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@mixin flex_center_img($img_width : 100%){
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & img {
+    width: $img_width;
+  }
+}
+
+@mixin flex_center_a_img($img_width : 100%){
+  &>a {
+    // border: $blab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &>a>img {
+    width: $img_width;
+  }
+}
+
+
+@mixin outlined(){
+  // color: $pla !important;
+   // -webkit-text-stroke: 1px #fff;
+   color: #fff !important;
+    -webkit-text-stroke: 1px $tam05;
+}

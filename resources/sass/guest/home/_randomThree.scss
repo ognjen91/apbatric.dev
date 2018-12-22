@@ -1,0 +1,47 @@
+.socialLinks{
+
+  @media screen and (min-width: $md){
+    padding: 9% 4%;
+
+  }
+
+  @media screen and (min-width: $lg){
+    padding: 6% 4%;
+
+  }
+
+  @media screen and (min-width: $lg){
+    padding:  4%;
+  }
+
+  & h4{
+    color: $pla;
+  }
+
+  &>div{
+    display: flex;
+  }
+
+}
+
+.socialLink{
+  width: 10%;
+  margin-right: 4%;
+  // border: $blab;
+  &>div{
+    @include flex_center_a_img(80%);
+    @media screen and (min-width: $sm){
+      @include flex_center_a_img(70%);
+    }
+    @media screen and (min-width: $md){
+      @include flex_center_a_img(60%);
+    }
+
+    @media screen and (min-width: $lg){
+      @include flex_center_a_img(50%);
+    }
+    @media screen and (min-width: $xl){
+      @include flex_center_a_img(45%);
+    }
+  }
+}

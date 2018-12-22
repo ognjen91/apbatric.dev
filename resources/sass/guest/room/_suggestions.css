@@ -1,0 +1,33 @@
+
+ /* =========ROOM SUGESTIONS============ */
+
+.suggestions {
+  margin-bottom: 4%;
+}
+
+.suggestionTitle{
+  margin-bottom: 3%;
+  text-decoration: underline;
+}
+
+.suggestedRoom{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  & h4, & p {
+    text-align: center;
+  }
+}
+
+.suggestedImg{
+  @include flex_center_a_img(70%);
+}
+
+.suggestedGo{
+  margin: 5%;
+
+  & a {
+    color: $ljub;
+  }
+}

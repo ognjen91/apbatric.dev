@@ -1,0 +1,60 @@
+.discountPage {
+  margin-top: 16%;
+  @media screen and (min-width: $sm){
+    margin-top: 9%;
+  }
+  @media screen and (min-width: $md){
+    margin-top: 7%;
+  }
+  @media screen and (min-width: $lg){
+    margin-top: 0%;
+    padding-top: 15%;
+  }
+}
+
+
+.discountInfo{
+  padding: 0 2%;
+  @media screen and (min-width: $sm){
+    padding: 0 3%;
+  }
+
+  @media screen and (min-width: $md){
+    border-right: 1px solid $grab;
+  }
+}
+
+.discountName{
+  color : $ljub;
+  margin-bottom: 8%;
+  padding-left: 6%;
+}
+
+.discoutDescription{
+  @media screen and (min-width: $lg){
+    background-color: rgba(211, 232, 225, 0.4);
+  }
+}
+
+
+.discountCounter{
+
+}
+
+.noOtherDisc{
+  color: $crv;
+}
+
+.otherDiscount{
+ padding-left: 6%;
+ margin-bottom: 4%;
+}
+
+.otherDiscName{
+  color: $ljub;
+  margin-bottom: 3%;
+}
+
+.otherDiscountDescription{
+
+}

@@ -1,0 +1,41 @@
+.viewRoom {
+  overflow-x: hidden;
+  // border: $redb2;
+  margin-top: 15%;
+  padding: 0 4%;
+  display: flex;
+  justify-content: center;
+
+  @media screen and (min-width: $sm){
+    margin-top: 9%;
+  }
+
+  @media screen and (min-width: $md){
+    margin-top: 5%;
+  }
+
+  @media screen and (min-width: $md){
+    margin-top: 3%;
+  }
+
+  @media screen and (min-width: $lg){
+    margin-top: 0%;
+    padding-top: 15%;
+  }
+
+}
+
+
+@import 'room/suggestions';
+@import 'room/amenities';
+@import 'room/basicInfo';
+@import 'room/images';
+@import 'room/calendars';
+@import 'room/prices';
+@import 'room/sendMail';
+
+
+.roomMail {
+  position: absolute;
+  z-index: 3;
+}

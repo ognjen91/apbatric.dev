@@ -1,0 +1,21 @@
+#app {
+  width: 100vw;
+  // border: $greb;
+}
+
+
+.homeWrap {
+  padding: 0% 4%;
+}
+
+
+@import 'home/promotionWarning';
+@import 'home/slider';
+@import 'home/randomOne';
+@import 'home/randomTwo';
+@import 'home/randomThree';
+@import 'home/video';
+@import 'home/calendars';
+@import 'home/roomsPreview';
+@import 'home/discountsPreview';
+@import 'home/gallery';

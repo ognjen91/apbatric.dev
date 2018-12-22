@@ -1,0 +1,98 @@
+// ======SLIKE========
+
+.roomImgs {
+  display: flex;
+  flex-direction: column;
+
+  &>div{
+    // border: $greb;
+
+    &>div{
+      // border: $redb;
+    }
+  }
+
+  @media screen and (min-width: $lg){
+       margin-bottom: 7.5%;
+  }
+}
+.roomBackgroundImg {
+  // height : 40% !important;
+  padding: 19% 0;
+  background-position: center center !important;
+  background-repeat:no-repeat;
+  background-position: center center;
+
+  @media screen and (min-width: 480px){
+    padding: 21% 0;
+  }
+
+  @media screen and (min-width: $md){
+    padding: 19% 0;
+  }
+
+  @media screen and (min-width: $lg){
+    padding: 9% 0;
+  }
+
+  text-align: center;
+  overflow: hidden;
+  width: 100vw;
+  position: absolute !important;
+  top : 0 !important;
+  left: 0;
+  z-index: -2;
+  background-repeat: no-repeat;
+  background-size: cover;
+  // background-color: red;
+  background-position: center;
+  filter: blur(1px);
+ -webkit-filter: blur(1px);
+
+}
+
+.roomSlogan{
+  visibility: hidden;
+}
+
+
+.bigImg {
+  // border: $greb2;
+  padding: 15%;
+  text-align: center;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 0 8% 8%;
+
+  @media screen and (min-width: 480px){
+    padding: 18%;
+  }
+  @media screen and (min-width: $sm){
+    margin: 0 0 5% 5%;
+  }
+  @media screen and (min-width: $lg){
+    margin: 0;
+    padding: 15%;
+  }
+}
+
+.smallImg {
+    @include flex_center_img(60%);
+    margin-bottom: 3%;
+
+    & img{
+      border: 1px solid $tam05;
+   }
+
+   @media screen and (min-width: $sm){
+    @include flex_center_img(90%);
+    margin: 3% 0;
+   }
+
+   @media screen and (min-width: $md){
+    @include flex_center_img(80%);
+
+   }
+}

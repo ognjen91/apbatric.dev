@@ -1,0 +1,31 @@
+// ======ROOM BASIC INFO===========
+.roomInfo {
+  padding : 4% 0 0 5%;
+  margin-bottom: 4%;
+
+  @media screen and (min-width: $sm){
+    padding: 0 0 0 5%;
+  }
+
+  @media screen and (min-width: $lg){
+    margin-bottom: 2%;
+  }
+}
+
+.basicInfo {
+  margin-bottom: 4%;
+}
+
+.roomName{
+  @media screen and (min-width: $lg){
+       font-size: 2.7em;
+  }
+}
+
+.roomSlogan{
+ margin-bottom: 1%;
+}
+
+.roomDescription{
+
+}

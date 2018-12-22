@@ -1,0 +1,33 @@
+.prices {
+  margin: 4%;
+  text-align: center;
+
+  @media screen and (min-width: $lg){
+    margin: 5% 0 0 0;
+  }
+}
+
+.pricesRow{
+  // border: $blub;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // border: $redb;
+}
+
+.roomPrices {
+  // border: $blub;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+// margin: 4%;
+//
+& table {
+  // width: 100%;
+}
+
+  & .pricesHead {
+    background: $ljub05;
+    color: #fff;
+  }
+}

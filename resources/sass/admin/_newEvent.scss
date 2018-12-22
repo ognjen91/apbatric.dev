@@ -1,0 +1,21 @@
+.addEvent{
+  margin-top: 15%;
+  @media screen and (min-width:$md){
+    margin-top: 4%;
+  }
+}
+
+.setPromotionPeriod {
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (min-width:768px){
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  &>div{
+    margin-bottom : 3%;
+
+  }
+}
